@@ -24,8 +24,9 @@ Task 1 - Enable Phishing Detection
    There are no alerts because this page was copied before a WebSafe
    profile was added to the virtual server.
 
-#. In the BIG-IP Configuration Utility, from the left menu select
-   **Phishing Detection**.
+#. In the BIG-IP Configuration Utility, select the ``login.php`` from
+   the **URL** page, and then from the left menu select **Phishing
+   Detection**.
 
 When you created the WebSafe profile, phishing detection was enabled by
 default.

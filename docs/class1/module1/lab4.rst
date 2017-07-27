@@ -11,7 +11,7 @@ Task 1 - View the Application Before Enabling Application Layer Encryption
    **Bank** bookmark.
 
 #. Enter the credentials **bobsmith** / **P@ssw0rd1** but do not click
-   Login.
+   **Login**.
 
 #. In the inspection window open the **Console** tab, and in the
    console, type (or copy and paste) the following and press **Enter**:
@@ -21,13 +21,14 @@ Task 1 - View the Application Before Enabling Application Layer Encryption
    This value hasn’t yet been submitted and is therefore available in
    cleartext for form grabbing.
 
-#. In the inspection window select the **Preserve log** checkbox.
+#. In the inspection window open the **Network** tab and select the
+   **Preserve log** checkbox.
 
 #. Log in as **bobsmith** / **P@ssw0rd1**.
 
-#. In the inspection window on the **Network** tab, click the second
-   **Login.php** entry, and then in the **Headers** tab scroll down and
-   examine the **Form Data** section.
+#. In the inspection window, click the second **Login.php** entry, and
+   then in the **Headers** tab scroll down and examine the **Form Data**
+   section.
 
    |image23|
 
@@ -131,8 +132,8 @@ Task 3 - View the Application After Enabling Application Layer Encryption
 
    Encryption for the password field is taking place in real-time, as you type.
 
-#. In the inspection window select the **Network** page, and then select
-   the **Preserve log** checkbox.
+#. In the inspection window open the **Network** page and select the
+   **Preserve log** checkbox.
 
 #. Log in as **bobsmith** / **P@ssw0rd1**.
 

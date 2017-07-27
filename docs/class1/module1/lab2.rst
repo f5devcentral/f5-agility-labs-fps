@@ -114,10 +114,10 @@ Task 2 - View WebSafe Alerts
 
    |image12|
 
-   The parameter name is “\ **username**\ ”.
+   The parameter name is ``username``.
 
-#. In the BIG-IP Configuration Utility, click the **Anti-Fraud Profile**
-   link.
+#. In the BIG-IP Configuration Utility, for the ``banking_fraud_profile``, 
+   click the ``Anti-Fraud Profile`` link (see below).
 
    |image13|
 
@@ -179,9 +179,9 @@ Task 3 - Check for Malware JavaScript Signatures
    exercise. Notice at the bottom of the page the alert severity is
    configured at **90**.
 
-#. In the BIG-IP Configuration Utility, click the **Anti-Fraud Profile**
-   link, and then from the left panel open the global **Malware
-   Detection** page.
+#. In the BIG-IP Configuration Utility, click the
+   ``banking_fraud_profile`` **Anti-Fraud Profile** link, and then
+   from the left panel open the global **Malware Detection** page.
 
 #. For the **Search for malicious words in the HTML or JavaScript code**
    field, add both **tatangakatanga** and **trojan** as two separate
